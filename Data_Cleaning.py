@@ -15,6 +15,9 @@ df = pd.read_csv(('glassdoor_jobs.csv'))
 
 #removing all the '-1' in the salary estimate
 
+df['hourly'] = df['Salary Estimate'].apply(lambda x: 1 if 'per hour' in x.lower() else 0)
+df['employer_provided'] = df['Salary Estimate'].apply(lambda x: 1 if 'employer provided salary:' in x.lower() else 0)
+
 df = df[df['Salary Estimate']!='-1']
 
 Salary = df['Salary Estimate'].apply(lambda x: x.split('(')[0])
