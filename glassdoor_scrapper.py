@@ -2,6 +2,8 @@
 """
 Created on Tue Jun  2 13:55:47 2020
 
+# Glassdoor Selenium scraper link: 'https://github.com/arapfaik/scraping-glassdoor-selenium'
+# Article link: 'https://towardsdatascience.com/selenium-tutorial-scraping-glassdoor-com-in-10-minutes-3d0915c6d905'
 @author: Swaraj Panchal
 """
 
