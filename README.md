@@ -1,4 +1,4 @@
-# Glassdoor_Salary_Proj
+# Glassdoor Salary Prediction Project
 ## Project Overview
 •	Created a tool that estimates data science salaries by scrapping over 1000 job descriptions from glassdoor employing python and selenium and engineered features that can quantify values of data science skill.
 
