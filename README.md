@@ -1,6 +1,7 @@
 # Glassdoor_Salary_Proj
 ## Project Overview
 •	Created a tool that estimates data science salaries by scrapping over 1000 job descriptions from glassdoor employing python and selenium and engineered features that can quantify values of data science skill.
+
 •	Optimized 3 regression models by applying GridsearchCV to reach best model (Random Forest Regressor with an accuracy of 81%) and built a client-facing API through flask.
 
 
